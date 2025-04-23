@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Tips</title>
+    <link rel="stylesheet" href="style.css"> <!-- Ensure your CSS file is linked correctly -->
+</head>
+<body>
+    <section class="Dance Tips">
+        <h2>Dance Tips</h2>
+        <p>Click the button below for a tip to improve your dancing skills!</p>
+        <button onclick="tellJoke()" class="joke-btn">Give me a correction!</button>
+        <div id="joke" class="joke-display">Your tip will appear here!</div>
+    </section>
+    
+    <script>
+        const jokes = [
+            "Have confidence when you go into an audition!",
+            "A solid ballet base is the best thing you can have for any dance style.",
+            "Always point your toes!",
+            "Remember to spot when you're doing any sort of turn.",
+            "Hard work beats natural talent every single time!"
+        ];
+
+        function tellJoke() {
+            const i = Math.floor(Math.random() * jokes.length);
+            document.getElementById("joke").innerText = jokes[i];
+        }
+    </script>
+</body>
+</html>
+

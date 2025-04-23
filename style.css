@@ -1,0 +1,326 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Typography === */
+h1, h2, h3 {
+    color: #c9aedb;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* === Container Utility === */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* === Navigation Bar === */
+.navbar {
+    background-color: #c9aedb;
+}
+.navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+.navbar .nav-link:hover {
+    color: #fdf6f0 !important;
+}
+
+/* === Footer === */
+footer {
+    background-color: #aed9e0;
+    padding: 1rem;
+    text-align: center;
+    color: #333;
+    margin-top: 3rem;
+    border-top: 2px solid #c9aedb;
+}
+
+/* === Buttons === */
+.btn-primary {
+    background-color: #f7cdd1;
+    border-color: #f7cdd1;
+    color: #333;
+}
+.btn-primary:hover {
+    background-color: #eeb7bc;
+    border-color: #eeb7bc;
+    color: #222;
+}
+.joke-btn {
+    background-color: #f7cdd1;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    color: #333;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+.joke-btn:hover {
+    background-color: #eeb7bc;
+}
+
+/* === Joke / Dance Tip Generator === */
+.dance-tips {
+    background-color: #fceff9;
+    padding: 3rem;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.dance-tips h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.dance-tips p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+.joke-display {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #666;
+    border-top: 2px solid #c9aedb;
+    padding-top: 1rem;
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* === Image Styling === */
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* === Dance Journey Section === */
+.dance-journey {
+    background-color: #fceff9;
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.dance-journey ol {
+    padding-left: 1.5rem;
+}
+.dance-journey ul {
+    margin-top: 0.5rem;
+    padding-left: 1.5rem;
+    list-style-type: circle;
+    color: #666;
+}
+
+/* === Injury Box === */
+.injury-box {
+    background-color: #fceff9;
+    border: 2px solid #c9aedb;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.injury-box h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.injury-box p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* === Fun Fact Boxes === */
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.box {
+    width: 250px;
+    height: 150px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.lavender { background-color: #c9aedb; }  /* Stronger lavender */
+.pink { background-color: #f7cdd1; }
+.blue { background-color: #aed9e0; }
+body {
+    background-color: #fdf6f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-container {
+    background-color: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #c9aedb;
+    font-size: 2.5rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    color: #f7cdd1;
+    border-bottom: 2px solid #f7cdd1;
+    padding-bottom: 0.3rem;
+    margin-top: 2rem;
+  }
+  
+  h3 {
+    color: #c9aedb;
+    margin: 1rem 0 0.3rem;
+  }
+  
+  ul {
+    padding-left: 1.2rem;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .skills li {
+    background-color: #fceff9;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  .video-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Styling for the Dance Journey section */
+.dance-journey {
+    margin-bottom: 40px;
+}
+
+.dance-journey h2 {
+    font-size: 2em;
+    color: #f3c1e1; /* Soft pastel pink */
+}
+
+.dance-journey ol {
+    list-style-position: inside;
+    text-align: left;
+    display: inline-block;
+    padding: 10px;
+    max-width: 500px;
+}
+
+/* Styling for the injury paragraph */
+.injury-text {
+    font-size: 1.2em;
+    color: #444;
+    margin-top: 30px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style for the image and its caption */
+.image-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image-container img {
+    width: 60%; /* Set width to 80% of container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.image-caption {
+    font-size: 1.1em;
+    color: #777;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* Style for Tableau iframe */
+.tableauPlaceholder {
+    margin-top: 40px;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 50px;
+    font-size: 1.2em;
+    color: #555;
+}
+
+footer a {
+    text-decoration: none;
+    color: #a3c2c2; /* Pastel color */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+footer a:hover {
+    background-color: #f3c1e1; /* Highlight color on hover */
+}
